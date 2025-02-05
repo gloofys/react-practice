@@ -1,13 +1,12 @@
 
-
-import UserList from "./components/UserList.jsx";
-import ProductList from "./components/ProductList.jsx";
+import Person from "./components/Person.jsx";
+import Product from "./components/Product.jsx";
 
 const App = () => {
  return(
     <div>
-        <UserList/>
-        <ProductList/>
+        <Person/>
+        <Product/>
     </div>
     );
 }
