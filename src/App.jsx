@@ -1,12 +1,14 @@
 
-import Person from "./components/Person.jsx";
-import Product from "./components/Product.jsx";
+import Weather from "./components/Weather.jsx";
+import UserStatus from "./components/UserStatus.jsx";
+import Greeting from "./components/Greeting.jsx";
 
 const App = () => {
  return(
     <div>
-        <Person/>
-        <Product/>
+        <Weather/>
+        <UserStatus loggedIn={true} isAdmin={true}/>
+        <Greeting timeOfDay="afternoon" />
     </div>
     );
 }
