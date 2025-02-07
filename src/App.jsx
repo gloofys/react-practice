@@ -1,18 +1,15 @@
-
-
-import Profile from "./components/Profile.jsx";
-import ShoppingList from "./components/ShoppingList.jsx";
-import TodoList from "./components/TodoList.jsx";
 import Counter from "./components/Counter.jsx";
+import BasicEffect from "./components/BasicEffect.jsx";
+import CounterEffect from "./components/CounterEffect.jsx";
+import FetchDataEffect from "./components/FetchDataEffect.jsx";
 
 const App = () => {
- return(
-    <div>
-        <Counter/>
-        <Profile />
-        <ShoppingList />
-        <TodoList />
-    </div>
+    return (
+        <div>
+            <BasicEffect/>
+            <CounterEffect />
+            <FetchDataEffect/>
+        </div>
     );
 }
 
